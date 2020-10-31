@@ -40,4 +40,4 @@ jobs:
         run: npm install --global surge
         
       - name: Deploying using Surge
-        run: surge ./ bc_2020_cls02.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build bc_2020_cls02.surge.sh --token ${{ secrets.SURGE_TOKEN }}
